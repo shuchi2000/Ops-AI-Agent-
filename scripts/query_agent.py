@@ -2,6 +2,9 @@ import os
 from langchain_experimental.agents import create_csv_agent
 from langchain_anthropic import ChatAnthropic
 from orchestration_agent import handle_query
+from dotenv import load_dotenv
+
+load_dotenv()
 
 # Initialize the LLM (Claude 3)
 llm = ChatAnthropic(model="claude-3-5-sonnet-20241022")

@@ -3,7 +3,7 @@ import pandas as pd
 
 # Import the updated function to fetch program details
 from program_details import fetch_program_info, fetch_program_codes
-from agent_2 import agent  # Import the agent function
+from query_agent import agent  # Import the agent function
 
 # Step 1: Ask for Client Name
 st.title("Client Query Interface")

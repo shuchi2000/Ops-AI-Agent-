@@ -4,7 +4,7 @@ from datetime import datetime
 # Function to fetch program codes under each client
 def fetch_program_codes(Client_name):
     # Read the CSV file
-    df = pd.read_csv(r"C:\Users\shuchismita_mallick.Shuchismita\GenAI-Projects\Operation AI Agent\data\client_program_learner.csv")
+    df = pd.read_csv(r"G:\My Drive\ML\2025\Project\Ops-AI-Agent-\prepared_data\client_program_learner.csv")
     
     # Assuming the file has columns: 'client_name' and 'program_code'
     if 'Client_name' not in df.columns or 'code' not in df.columns:
